@@ -1,12 +1,13 @@
-import Penjumlahan from "./components/Penjumlahan";
-import "./styles/App.css";
+import Card from "./components/Card"
+// import Penjumlahan from "./components/Penjumlahan"
+import "./styles/App.css"
 
 function App() {
   return (
     <>
-      <Penjumlahan />
+      <Card />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
